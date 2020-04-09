@@ -1,5 +1,6 @@
 package com.noahhendrickson.elefant.commands;
 
+import com.noahhendrickson.commands.KotlinCommand;
 import com.noahhendrickson.elefant.Elefant;
 import net.dv8tion.jda.api.Permission;
 import net.dv8tion.jda.api.entities.Message;
@@ -21,7 +22,8 @@ public class CommandManager extends ListenerAdapter {
     public CommandManager(Elefant elefant) {
         this.commands = Arrays.asList(
                 new BotCommand(),
-                new PingCommand()
+                new PingCommand(),
+                new KotlinCommand()
         );
         this.respondToBotsOrFakes = Boolean.getBoolean(elefant.getLoginDetails().get(1));
     }
