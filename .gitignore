@@ -1,0 +1,17 @@
+# Project exclude paths
+/.gradle/
+/out/
+/out/production/classes/
+.idea/$CACHE_FILE$
+.idea/.gitignore
+.idea/compiler.xml
+.idea/dictionaries/
+.idea/discord.xml
+.idea/gradle.xml
+.idea/jarRepositories.xml
+.idea/misc.xml
+.idea/uiDesigner.xml
+
+/gradle/wrapper/
+LoginDetails
+user_messages.json
